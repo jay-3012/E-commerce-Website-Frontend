@@ -21,7 +21,7 @@ function Signup() {
       email: data.email,
       password: data.password,
     };
-    await axios.post("https://ecommerce-nine-wine-88.vercel.app/user/signup", userInfo)
+    await axios.post("https://ecommerce-zhu2.onrender.com/user/signup", userInfo)
     .then((res) => {
         console.log(res.data);
         if (res.data) {
