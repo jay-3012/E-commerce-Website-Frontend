@@ -9,7 +9,7 @@ function Category() {
   useEffect(()=>{
     const getArt=async()=>{
       try{
-        const res =await axios.get("https://ecommerce-nine-wine-88.vercel.app/artart");
+        const res =await axios.get("https://ecommerce-zhu2.onrender.com/art");
         console.log(res.data);
         setArt(res.data);
       }catch(error){
