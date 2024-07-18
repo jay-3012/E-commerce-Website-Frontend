@@ -11,7 +11,7 @@ function Homecard() {
   useEffect(()=>{
     const getArt=async()=>{
       try{
-        const res =await axios.get("http://localhost:3000/art");
+        const res =await axios.get("https://ecommerce-nine-wine-88.vercel.app/art");
         // console.log(res.data.filter((data)=>data.category==="home decor"));
         setArt(res.data.filter((data)=>data.category==="home decor"));
       }catch(error){
